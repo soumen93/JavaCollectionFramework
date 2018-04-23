@@ -25,6 +25,14 @@ import java.util.ListIterator;
  *
  */
 public class JavaArrayList {
+	/**
+	 * i)Java ArrayList is not thread safe. Hence it is not thread safe so performance wise performance wise 
+	 *   it is faster than vector.
+	 * ii)default size of Java Arraylist is 10. and it is grow 50% every time it reaches it's current size limit.
+	 * iii)ArrayList you can't define the list growing factor.  
+	 * iv)This can be only traverse using iterator. you can not use enumeration here 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		//creating a dynamic arrayList
 		ArrayList<Integer> arrayList=new ArrayList<Integer>();
